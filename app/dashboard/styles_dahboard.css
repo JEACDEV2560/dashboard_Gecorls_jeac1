@@ -1,0 +1,9 @@
+.iconos{ 
+     width: 50px;           /* Ancho del cuadrado */
+  height: 50px;          /* Alto igual al ancho para que sea cuadrado */
+  background-color: #08B; /* Color de fondo */
+  display: flex;         /* Útil para centrar el icono dentro */
+  align-items: center;   /* Centra verticalmente el icono */
+  justify-content: center; /* Centra horizontalmente el icono */
+  border-radius: 8px;    /* Opcional: redondea un poco las esquinas */
+}
