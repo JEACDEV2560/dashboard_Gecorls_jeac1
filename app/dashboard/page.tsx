@@ -130,7 +130,7 @@ export default function Page() {
                <p className=" text-center  px-3 py-1">B+</p>
              </div>
              <div className="rounded-md bg-green-500/10 p-3 text-center">
-               <h3 className="">Estatus del estudiante <p className="text-green-500 text-bold">INSCRIPTO</p></h3>
+               <h3 className="text-green-500">Estatus del estudiante <p className="text-green-500 text-bold">INSCRIPTO</p></h3>
                
              </div>
             
