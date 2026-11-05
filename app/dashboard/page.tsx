@@ -126,7 +126,7 @@ export default function Page() {
            <hr className="mb-4 border-gray-400" />
            <div className="grid gap-3 sm:grid-cols-2">
              <div className="rounded-md bg-red-500/10 p-3">
-               <h3 className="mb-2 rounded-[25%] bg-red-500/10 px-3 py-1 font-semibold">Grupo sanguíneo</h3>
+               <h3 className="mb-2  text-center px-3 py-1 font-semibold">Grupo sanguíneo</h3>
                <p className=" text-center  px-3 py-1">B+</p>
              </div>
              <div className="rounded-md bg-green-500/10 p-3 text-center">
