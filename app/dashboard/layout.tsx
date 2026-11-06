@@ -7,7 +7,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <SideNav />
       </div>
     
-      <div className="grow p-6 md:overflow-y-auto md:p-12">{children}</div>
+      <div className="grow p-4 md:overflow-y-auto md:p-12">{children}</div>
     </div>
   );
 }

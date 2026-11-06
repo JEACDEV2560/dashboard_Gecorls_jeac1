@@ -27,7 +27,7 @@ export default function Page() {
     </div><div><p className="flex items-center justify-center gap-2 rounded-lg bg-yellow-500 px-4 py-2 text-center font-bold text-black"><HardHat size={24} strokeWidth={2.5} nonScalingStroke /> Sitio Web en Construccion <HardHat size={24} strokeWidth={2.5} nonScalingStroke /></p></div><div> </div>
    <br />
    <br />
-  <div className="origin-center scale-[1.03] rounded-md bg-white-100 p-4 shadow-md">
+  <div className="origin-center rounded-md bg-white-100 p-4 shadow-md md:scale-[1.03]">
     {/* Identificador del estudiante  */}
     <div className="mx-auto flex w-full flex-col gap-4 rounded-md border-b-2 bg-[#0D1226] px-4 py-3 md:flex-row md:items-center md:justify-between">
       <div className="flex min-w-0 items-center gap-4">
@@ -61,32 +61,32 @@ export default function Page() {
     </div>
     <br/>
        {/* Tarjetas de informacion del estudiante */}
-        <div className="flex w-full gap-2">
-      <div className="card flex h-16 grow items-center justify-center gap-3 rounded-md bg-gray-100 shadow-md shadow-black/10">
+        <div className="grid w-full grid-cols-1 gap-2 sm:grid-cols-2 lg:flex">
+      <div className="card flex h-16 min-w-0 grow items-center justify-center gap-3 rounded-md bg-gray-100 shadow-md shadow-black/10">
     <GraduationCap className="shrink-0 text-blue-600" size={24} strokeWidth={2.5} nonScalingStroke />
     <div className="flex flex-col">
       <h1>Grado Academico</h1>
       <p>3er Año</p>
     </div>
   </div>
-  <div className="divider divider-horizontal text-gray-400"></div>
-  <div className="card flex h-16 grow items-center justify-center gap-3 rounded-md bg-gray-100 shadow-md shadow-black/10">
+  <div className="divider divider-horizontal hidden text-gray-400 lg:block"></div>
+  <div className="card flex h-16 min-w-0 grow items-center justify-center gap-3 rounded-md bg-gray-100 shadow-md shadow-black/10">
     <MapPin className="shrink-0 text-purple-600" size={24} strokeWidth={2.5} nonScalingStroke />
     <div className="flex flex-col">
       <h1>Seccion Asignada</h1>
       <p>Seccion A</p>
     </div>
   </div>
-  <div className="divider divider-horizontal text-gray-400"></div>
-  <div className="card flex h-16 grow items-center justify-center gap-3 rounded-md bg-gray-100 shadow-md shadow-black/10">
+  <div className="divider divider-horizontal hidden text-gray-400 lg:block"></div>
+  <div className="card flex h-16 min-w-0 grow items-center justify-center gap-3 rounded-md bg-gray-100 shadow-md shadow-black/10">
     <CircleStar className="shrink-0 text-yellow-500" size={24} strokeWidth={2.5} nonScalingStroke />
     <div className="flex flex-col">
       <h1>Promedio General</h1>
       <p>16.5</p>
     </div>
   </div>
-  <div className="divider divider-horizontal text-gray-400"></div>
-  <div className="card flex h-16 grow items-center justify-center gap-3 rounded-md bg-gray-100 shadow-md shadow-black/10">
+  <div className="divider divider-horizontal hidden text-gray-400 lg:block"></div>
+  <div className="card flex h-16 min-w-0 grow items-center justify-center gap-3 rounded-md bg-gray-100 shadow-md shadow-black/10">
     <Calendar className="shrink-0 text-blue-500" size={24} strokeWidth={2.5} nonScalingStroke />
     <div className="flex flex-col">
       <h1>Edad del Alumno</h1>
